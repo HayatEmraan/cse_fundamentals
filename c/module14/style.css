@@ -1,0 +1,56 @@
+.header_container {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row-reverse; */
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.header_container button {
+  background-color: red;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 50px;
+}
+
+.header_container button:nth-child(5):hover {
+  background-color: green;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: progress;
+}
+
+.first {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+/* absolute */
+
+.btn {
+  position: absolute;
+  left: 22%;
+  top: 48%;
+  color: white;
+  background-color: green;
+  padding: 20px;
+  border-radius: 30px;
+}
+.btn:hover{
+    background-color: purple;
+}
+
+/* pseudo class */
+
+/* :nth-child()
+    :first-child
+    :last-child
+    :hover
+*/
+
+/* 1, 3 */
