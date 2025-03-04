@@ -6,6 +6,7 @@ bool vis[105];
 int level[105];
 vector<int> adj[105];
 
+
 void input_bfs()
 {
     while (e--)
